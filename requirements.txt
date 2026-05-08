@@ -1,0 +1,36 @@
+# Location: /requirements.txt
+
+# --- Core API ---
+fastapi
+uvicorn[standard]
+python-multipart
+
+# --- Database ---
+sqlalchemy
+psycopg2-binary
+alembic
+
+# --- Configuration ---
+pydantic-settings
+python-dotenv
+
+# --- Async HTTP Client ---
+httpx
+
+# --- Document Processing ---
+python-docx
+pdfplumber
+
+# --- Background Jobs ---
+celery
+redis
+
+# --- AI / ML ---
+google-generativeai
+pytesseract
+pdf2image
+
+# --- TESTING ---
+pytest
+pytest-asyncio
+pytest-mock

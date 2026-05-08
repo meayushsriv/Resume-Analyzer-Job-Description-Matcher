@@ -1,0 +1,9 @@
+Run your application: docker compose -f docker/docker-compose.yml up
+
+Open your browser and go to this URL: http://localhost:8000/openapi.json
+
+You'll see a huge wall of JSON. Select all of it (Ctrl+A) and copy it (Ctrl+C).
+
+Paste all of that JSON into your new docs/api-specification.yaml file.
+
+Save the file.
